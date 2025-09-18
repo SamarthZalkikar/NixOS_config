@@ -7,3 +7,8 @@
 1. End game of linux (in my opinion)
 2. version control
 3. Reproducibility of the system
+
+
+### TODO
+- [ ] Add home manager config
+- [ ] Add flakes for system
