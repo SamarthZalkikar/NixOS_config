@@ -86,22 +86,19 @@
     git 
     gcc
     cmake 
-    ghostty 
+    foot
     kitty 
     yazi 
     brave 
-    librewolf-bin
     apple-cursor
     starship  
     vesktop  
-    eza
-    yazi 
+    yazi
     neovim 
     fish
     libreoffice-fresh
     btop 
     htop 
-    neofetch
     fastfetch
     imagemagick
     obsidian
@@ -117,6 +114,7 @@
     unzip
     unrar
     rar
+    emacs
     # Hyprland
     grim 
     rofi-wayland
@@ -151,10 +149,7 @@
     wrapperFeatures.gtk = true;
   };
 
-  # # For Hyprland
-  # programs.hyprland.enable = true;
-
-  # for cursor 
+  # for cursor
   # For GTK applications outside of X (like in Wayland), set:
   environment.variables = {
     XCURSOR_THEME = "applecore";
