@@ -1,12 +1,15 @@
 # NixOS_Config
 
-
-#### NixOs + Sway config 
+#### NixOS + Sway config for ThinkPad
 
 #### Motives for using NixOS
-1. version control
+1. Version control
 2. Reproducibility of the system
 
+### Structure
+- `configuration.nix` — Main system configuration (Sway, SDDM, packages, services)
+- `home.nix` — Home Manager user configuration (Git, cursor theme)
+
 ### TODO
-- [ ] Add home manager config
+- [x] Add Home Manager config
 - [ ] Add flakes for system
